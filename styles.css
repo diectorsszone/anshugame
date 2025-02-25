@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+}
+#ef{
+    height: 450px;
+    width: 550px;
+    border-radius: 5%;
+    position: relative;
+    border: 2px solid black;
+    background-color: rgb(207, 207, 162);
+    opacity: 0.9;
+    box-shadow: 25px 8px 0px rgb(199, 232, 238);
+    margin-left:18% ;
+}
+
+.game-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#colorDivs {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.color-div {
+    width: 50px;
+    height: 50px;
+    margin: 10px;
+    cursor: pointer;
+    border-radius: 5px;
+    
+}
+
+#randomColorDiv {
+    width: 48%;
+    height: 48%;
+    margin-bottom: 20px;
+    border-radius: 5px;
+    margin-left: 26%;
+    margin-top: 10%;
+    background-color: black;
+    animation: blinkColors 1s infinite;
+}
+@keyframes blinkColors {
+    0% { background-color: red; }
+    25% { background-color: blue; }
+    50% { background-color: green; }
+    75% { background-color: yellow; }
+    100% { background-color: orange; }
+}
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(235, 248, 235);
+}
+
+
+body{
+    background-image: url("Slide1.PNG");
+}
+#dv1{
+    height: 100%;
+    width: 100%;
+    background-color: black;
+    position: fixed;
+    z-index: 2;
+    top: 0px;
+    left: 0px;
+    opacity: 0.7;
+}
+
+#dv2{
+    height: 70%;
+    width: 70%;
+    background-image: url("you win.gif"); 
+    border: 2px solid black;
+    position: fixed;
+    z-index: 3;
+    top: 100px;
+    left: 200px;
+}
+#cbt{
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: rgb(181, 238, 181);
+    margin-top: 400px;
+}
+
+
+

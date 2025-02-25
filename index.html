@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Color Match Game</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div id="ef">
+
+    <div id="randomColorDiv"></div>
+    <div class="game-container">
+        <div id="colorDivs">
+            <div class="color-div" style="background-color: red;"></div>
+            <div class="color-div" style="background-color: blue;"></div>
+            <div class="color-div" style="background-color:  skyblue"></div>
+            <div class="color-div" style="background-color: yellow;"></div>
+            <div class="color-div" style="background-color:purple"></div>
+        </div>
+        
+        <button id="startBtn" onclick=audioply() disabled>Start</button>
+    </div>
+</div>
+
+<div id="dv1"></div>
+<div id="dv2">
+     <button id="cbt">continue</button>
+</div>
+
+<audio src="game-over-classic-206486.mp3" controls id="audi" loop></audio>
+<audio src="game-character-140506.mp3" controls id="win"></audio>
+    <script src="script.js"></script>
+</body>
+</html>
